@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+		<title>Kuba Kościelniak - tłumacz medyczny języka polskiego i&nbsp;angielskiego</title>
+		<script src="Chart.min.js"></script>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="fontello.css">
+		<link href='http://fonts.googleapis.com/css?family=Roboto:300,400,700&subset=latin,cyrillic,cyrillic-ext,latin-ext' rel='stylesheet' type='text/css'>
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+		<script src="countUp.min.js" type="text/javascript"></script>
+		<script src="script.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div id="jk-main">
+			<div id="jk-name" class="section-white">
+				<h1>KUBA KOŚCIELNIAK</h1>	
+				<div id="jk-position"><p>TŁUMACZ MEDYCZNY JĘZYKA POLSKIEGO I ANGIELSKIEGO</p></div>
+				<div id="jk-proz-pro-badge"><img src="proz_pro_CPN_logo.jpg" alt="Certified ProZ PRO translator" width="80">
+					<ul style="display: inline-block;vertical-align: top;list-style: none;padding-left: 6px;padding-right: 36px;margin-top: 6px;">
+						<li>
+							<b style="font-weight: bold;">Member of the<br>ProZ.com<br>Certified PRO Network</b>
+						</li>
+						<li>
+							<a target="_blank" href="./pro_certificate_1748981.jpg">English to Polish</a>
+						</li>
+						<li>
+							<a target="_blank" href="./pro_certificate_1748981_2.jpg">Polish to English</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="jk-about-me">
+				<div class="icon-box box-red"><i class="icon-user"></i></div>
+				<h2>O MNIE</h2>
+				<p>Witam! Nazywam się Kuba Kościelniak i jestem <b>tłumaczem medycznym języka polskiego i angielskiego z ponad 5-letnim doświadczeniem</b> w branży. Z wykształcenia jestem <b>chemikiem</b>, ukończyłem Wydział Chemii Uniwersytetu Jagiellońskiego w Krakowie. Od maja 2014 roku prowadzę własną agencję tłumaczeń <a target="_blank" rel="nofollow" href="http://word2.eu" style="font-weight:bold;"><b>Word<sup>2</sup></b></a>, która zapewnia klientom dopasowane do ich potrzeb rozwiązania językowe z zakresu <b>tłumaczeń medycznych i farmaceutycznych oraz badań klinicznych</b>.
+					<span class="icon-box box-sea small"><i class="icon-gauge"></i></span>Osobiście w ciągu dnia roboczego jestem w stanie przełożyć <b>do 3000 słów źródłowych</b>.</p>
+				<p>Jestem tłumaczem z <b>certyfikacją ProZ</b> oraz członkiem <b><a target="_blank" rel="nofollow" href="http://www.proz.com/cpn">ProZ PRO Network</a></b>.</p>
+				<p>Od lipca 2015 roku z dumą pełnię też funkcję <b>moderatora ProZ</b> - zapraszam do kontaktu ze mną także w kwestiach związanych z korzystaniem z ProZ.com.</p>
+				<p>Jako oddany użytkownik ProZ.com, <b>staram się także pomagać koleżankom i kolegom po fachu</b> z problemami terminologicznymi związanymi z moimi dziedzinami, aktywnie odpowiadając na pytania KudoZ - zachęcam do zerknięcia na poniższe informacje!</p>
+			</div>
+			<div id="jk-feedback">
+				<div class="icon-box box-sea"><i class="icon-star"></i></div>
+				<a target="_blank" style="color: black; text-decoration: none;" href="http://pol.proz.com/wwa/1748981">
+					<h2>Pozytywną opinię o moich tłumaczeniach i chęć dalszej współpracy wyraziło <span id="jk-wwa"></span> klientów i współpracowników.</h2>
+				</a>
+			</div>
+			<div id="jk-kudoz-section" class="section-red">
+				<div class="icon-box box-red"><i class="icon-gauge"></i></div>
+
+				<h2>Podsumowanie punktów KudoZ</h2>
+				<div id="jk-kudoz" class="section-red">
+					<div id="jk-kudoz-points">
+						<div id="jk-points-pro"><div class="points">0</div><div class="names">Punktów łącznie</div></div>
+						<div id="jk-questions-asked-pro"><div class="points">0</div><div class="names">Zadane pytania</div></div>
+						<div id="jk-questions-answered-pro"><div class="points">0</div><div class="names">Udzielone odpowiedzi</div></div>
+					</div>
+				</div>
+				<p>Podział punktów według dziedzin:</p>
+				<div id="jk-chart-legend-kudoz" class="jk-chart-legend"></div>
+				<div id="jk-chart-box">
+					<canvas id="kudoz-points-by-field" width="400" height="400"></canvas>
+					<div class="jk-chart-value"></div>
+				</div>
+			</div>
+			<div id="jk-spec">
+				<div class="icon-box box-sea"><i class="icon-chart-pie"></i></div>
+				<h2>MOJE OBSZARY SPECJALIZACJI</h2>
+				<div id="jk-chart-legend" class="jk-chart-legend"></div>
+				<div id="jk-chart-box">
+					<canvas id="jk-spec-chart" width="400" height="400"></canvas>
+					<div class="jk-chart-value"></div>
+				</div>
+			</div>
+
+			<div id="jk-contact" class="section-red">
+				<div class="icon-box box-red"><i class="icon-mail-alt"></i></div>
+				<h2>KONTAKT</h2>
+				<p>Chcąc zlecić mi tłumaczenie, uzyskać informacje o moich stawkach i dostępności albo skontaktować się ze mną jako z moderatorem ProZ.com, zachęcam do kontaktu przez:</p>
+				<div class="icon-box box-red small"><i class="icon-mail-alt"></i></div>
+				<span class="jk-li"><a target="_blank" href="http://www.proz.com/?sp=mailsend&eid_s=1748981">wiadomość e-mail ProZ</a> lub</span><br>
+				<div class="icon-box box-red small"><i class="icon-mobile"></i></div>
+				<span class="jk-li">telefon: +48 511 411 011</span><br>
+				<div class="icon-box box-red small"><i class="icon-at"></i></div>
+				<span class="jk-li">albo pocztę elektroniczną: <a target="_blank" href="mailto:kuba@word2.eu?Subject=Message%20from%20ProZ.com">kuba@word2.eu</a></span>
+				<p><span class="icon-box box-red small"><i class="icon-clock"></i></span>W kwestiach zawodowych jestem dostępny od poniedziałku do piątku w godzinach od 10:00 do 18:00.</p>
+			</div>
+
+			<div id="jk-last-project">
+				<div class="icon-box box-sea"><i class="icon-check"></i></div>
+				<h2>REALIZOWANE PROJEKTY</h2>
+				<p>Na co dzień zajmuję się tłumaczeniami z następujących dziedzin (najedź myszą na symbol, aby uzyskać szerszy opis):</p>
+				<div id="jk-projects-visualization">
+					<div id="description">
+						<div>
+							<h2 id="name-d3js">Dziedzina</h2>
+							<p><span id="desc-d3js">Szczegóły</span><br><span id="cat-d3js"></span></p></div>
+					</div>
+					<div id="make-d3js"></div>
+				</div>
+				<!--
+				<ul>
+					<li><b>ABB Group</b> (elektryka, elektronika, instrukcje obsługi);</li>
+					<li><b>Alstom</b> (elektryka, elektrownie wiatrowe);</li>
+					<li><b>Bestpharma</b> (tłumaczenie strony internetowej);</li>
+					<li><b>Eppendorf AG</b> (wyposażenie laboratorium, instrukcje obsługi);</li>
+					<li><b>Herbapol Wrocław</b> (ulotki leków, raporty dotyczące walidacji i opisy metod analitycznych);</li>
+					<li><b>HP Wrocław</b> (zapewnianie jakości);</li>
+					<li><b>Nikon</b> (systemy rentgenowskie);</li>
+					<li><b>Johnson&Johnson</b> (produkty medyczne);</li>
+					<li><b>Opel</b> (opisy techniczne, SIWZ);</li>
+					<li><b>Philip Morris</b> (Karty charakterystyki);</li>
+					<li><b>Polpharma</b> (ulotki i charakterystyki leków, raporty dotyczące walidacji i opisy metod analitycznych);</li>
+					<li><b>Roche</b> (ulotki i charakterystyki leków);</li>
+					<li><b>Science in School</b> (tłumacz-wolontariusz artykułów naukowych).</li>
+				</ul>
+				-->
+				<p>Jestem także otwarty na tłumaczenia z innych dziedzin i przekłady tekstów dotyczących kilku obszarów mojej specjalizacji!</p>
+
+				<p>Na życzenie mogę przedstawić portfolio tłumaczeń z wybranej dziedziny (zawierające teksty bez danych wrażliwych i poufnych) - w takim przypadku proszę o kontakt.</p>
+			</div>
+
+			<div id="jk-follow">
+				<div class="icon-box box-sea"><i class="icon-link-ext"></i></div>
+				<h2>ZNAJDZIESZ MNIE TEŻ NA...</h2>
+				<div class="center" id="jk-word2" style="margin-top: 20px;">
+					<a target="_blank" rel="nofollow" href="http://word2.eu"><img src="logo-word2.svg" alt="Word2"></a>
+				</div>
+				<div class="center" id="jk-tm-town" style="margin-top: 20px;">
+					<a target="_blank" rel="nofollow" href="https://www.tm-town.com/translators/kkoscielniak"><img src="https://s3.amazonaws.com/tmtown/badges/kkoscielniak-bw" alt="Kuba Kościelniak TM-Town Profile" height="234" width="200"></a>
+				</div>
+				<div class="center" id="jk-linkedin" style="margin-top: 20px;">
+					<a target="_blank" rel="nofollow" href="https://www.linkedin.com/in/kuba-ko%C5%9Bcielniak-5284b1b2"><img src="my-linkedin.png" alt="My LinkedIn profile" width="200"></a>
+				</div>
+
+			</div>
+
+			<!--
+			<div id="jk-reference">
+				<div class="icon-box box-sea"><i class="icon-thumbs-up"></i></div>
+				<h2>OTHER DETAILS</h2>
+
+				<p><a target="_blank" rel="nofollow" href="http://jkoscielniak.pl/photos/refel.jpg" style="font-weight:bold;">Elektroda.pl</a> Pozostałe referencje na życzenie.</p>
+
+				<p>Komentarze dotyczące wykonywanych przeze mnie tłumaczeń znajdują się w sekcji WWA powyżej oraz na moim profilu <a target="_blank" rel="nofollow" href="http://www.technicznie.globtra.com" style="font-weight:bold;">Globtra</a>.</p>
+			</div>
+			-->
+			<div id="jk-after-work">
+				<div class="icon-box box-sea"><i class="icon-coffee"></i></div>
+				<h2>PO PRACY...</h2>
+				<p>Gdy tylko zakończę pracę nad tłumaczeniami, relaksuję się, tworząc i wymyślając urządzenia elektroniczne - elektronika, a zwłaszcza cyfrowa, była od zawsze moim hobby. Od czasu do czasu udaje mi się stworzyć nawet funkcjonalne i pouczające (zwłaszcza dla mnie) urządzenia, a ostatnio poszerzam moją wiedzę dotyczącą procesorów ARM i programowania w C++. Zdarza mi się również grywać na pianinie, jestem miłośnikiem espresso i całkiem niezłym kucharzem (w opinii moich znajomych). Niespodzianką nie będzie, że w moim domu od zawsze było mnóstwo książek - moim skrytym marzeniem jest podjęcie się kiedyś tłumaczenia literackiego. Od 2013 roku jestem zakochany w Italii i skutecznie uczę się języka włoskiego.</p>
+			</div>
+			<!--
+			<div class="center" id="jk-proz-pro">
+				<a target="_blank" rel="nofollow" href="http://www.proz.com/cpn" style="display: inline-block;height: 160px;vertical-align: text-bottom;line-height: 160px;"><img src="http://www.proz.com/pro-tag/badge/1748981/both/Certified%20PROs.jpg" alt="Certified ProZ PRO translator" width="210" style="vertical-align: middle;"></a>
+			</div>
+			-->
+
+			<div id="jk-copyrights">© J. Kościelniak, 2009-2016</div>
+		</div>
+	</body>
+</html>

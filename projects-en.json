@@ -1,0 +1,105 @@
+[
+	{
+		"name": "ICFs",
+		"description": "Clinical studies-related documents",
+		"category": "2",
+		"size": "L",
+		"fontSize": "30"
+	},
+	{
+		"name": "SmPCs",
+		"description": "Translations of Summaries of Product Characteristics",
+		"category": "1",
+		"size": "L",
+		"fontSize": "30"
+	},
+	{
+		"name": "Regulatory documents",
+		"description": "EN<->PL translations of communications with Ethics Committees and Regulatory Authorities",
+		"category": "9",
+		"size": "M"
+	},
+	{
+		"name": "CTAs",
+		"description": "Translations of clinical studies-related agreements",
+		"category": "8",
+		"size": "M",
+		"fontSize": "30"
+	},
+	{
+		"name": "Protocols",
+		"description": "Clinical study protocols and synopses",
+		"category": "3",
+		"size": "L",
+		"fontSize": "24"
+	},
+	{
+		"name": "IMPD",
+		"description": "Translations and updates to IMPD documents",
+		"category": "4",
+		"size": "S",
+		"fontSize": "20"
+	},
+	{
+		"name": "Patents",
+		"description": "Patents pertaining to the fields of chemistry and pharmacy",
+		"category": "5",
+		"size": "M",
+		"fontSize": "20"
+	},
+	{
+		"name": "Validation reports",
+		"description": "Documents related to the manufacture of pharmaceuticals",
+		"category": "7",
+		"size": "M",
+		"fontSize": "10",
+		"fontSize": "20"
+	},
+	{
+		"name": "Patient-facing documents",
+		"description": "Including questionnaires, PIs, wallet cards, instructions, diaries",
+		"category": "2",
+		"size": "M"
+	},
+	{
+		"name": "Discharge reports",
+		"description": "Translations of discharge reports and test results for pharmacovigilance purposes",
+		"category": "4",
+		"size": "S"
+	},
+	{
+		"name": "Pharmacovigilance",
+		"description": "Inspection raports, information about in-house pharmacovigilance provisions",
+		"category": "5",
+		"size": "M",
+		"fontSize": "12"
+	},
+	{
+		"name": "PILs",
+		"description": "High quality translations of information leaflets to English and Polish",
+		"category": "2",
+		"size": "L",
+		"fontSize": "30"
+	},
+	{
+		"name": "User guides",
+		"description": "For laboratory equipment, and medical instruments",
+		"category": "8",
+		"size": "M",
+		"fontSize": "20"
+	},
+	{
+		"name": "Medical instruments",
+		"description": "Translations of documents (user guides, specifications) and software for medical instruments",
+		"category": "11",
+		"size": "M"
+	},
+	{
+		"name": "Labware",
+		"description": "From thermocycles, through X-ray devices, to flow cytometers",
+		"category": "2",
+		"size": "L",
+		"fontSize": "30"
+	}
+]
+			

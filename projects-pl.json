@@ -1,0 +1,102 @@
+[
+	{
+		"name": "Formularze świadomej zgody",
+		"description": "oraz inne dokumenty związane z badaniami klinicznymi",
+		"category": "0",
+		"size": "L"
+	},
+	{
+		"name": "ChPL",
+		"description": "Tłumaczenia i aktualizacje charakterystyk produktów leczniczych",
+		"category": "1",
+		"size": "L",
+		"fontSize": "30"
+	},
+	{
+		"name": "KB, URPL",
+		"description": "Tłumaczenia polskie i angielskie korespondencji z komisjami bioetycznymi i urzędami regulacyjnymi",
+		"category": "9",
+		"size": "M",
+		"fontSize": "24"
+	},
+	{
+		"name": "Umowy o badania",
+		"description": "Przekłady umów o przeprowadzenie badań klinicznych, umów z badaczami i instytucjami",
+		"category": "8",
+		"size": "M"
+	},
+	{
+		"name": "Streszczenia protokołów",
+		"description": "Tłumaczenia streszczeń protokołów przedkładanych do komisji bioetycznych i urzędów ds. zdrowia",
+		"category": "3",
+		"size": "L"
+	},
+	{
+		"name": "IMPD",
+		"description": "Aktualizacje i tłumaczenia dossier dla badanych produktów leczniczych",
+		"category": "4",
+		"size": "S",
+		"fontSize": "24"
+	},
+	{
+		"name": "Patenty",
+		"description": "Opisy patentowe z dziedzin chemii i farmacji",
+		"category": "5",
+		"size": "M",
+		"fontSize": "24"
+	},
+	{
+		"name": "Raporty walidacyjne",
+		"description": "oraz inne dokumenty związane z wytwarzaniem leków",
+		"category": "7",
+		"size": "M"
+	},
+	{
+		"name": "Materiały dla pacjentów",
+		"description": "Dokumenty stosowane w badaniach klinicznych, w tym kwestionariusze, dokumenty informacji dla pacjentów, karty informacyjne, instrukcje, dzienniczki pacjenta",
+		"category": "2",
+		"size": "M"
+	},
+	{
+		"name": "Karty informacyjne",
+		"description": "Tłumaczenia kart informacyjnych i wyników badań",
+		"category": "4",
+		"size": "S"
+	},
+	{
+		"name": "Pharmacovigilance",
+		"description": "Tłumaczenia raportów z inspekcji i wewnętrznych dokumentów dotyczących systemów pharmacovigilance",
+		"category": "1",
+		"size": "M",
+		"fontSize": "12"
+	},
+	{
+		"name": "Ulotki",
+		"description": "Tłumaczenia ulotek do opakowań leków na język polski i angielski",
+		"category": "2",
+		"size": "L",
+		"fontSize": "30"
+	},
+	{
+		"name": "Instrukcje",
+		"description": "Instrukcje obsługi sprzętu laboratoryjnego i urządzeń medycznych",
+		"category": "8",
+		"size": "M",
+		"fontSize": "20"
+	},
+	{
+		"name": "Urządzenia medyczne",
+		"description": "Tłumaczenia dokumentów (instrukcje użytkownika, specyfikacje) i oprogramowania dla urządzeń medycznych",
+		"category": "11",
+		"size": "M",
+		"fontSize": "18"
+	},
+	{
+		"name": "Sprzęt laboratoryjny",
+		"description": "Począwszy od termocyklerów i aparatów do PCR, przez systemy do obrazowania rentgenowskiego, na cytometrach przepływowych skończywszy",
+		"category": "2",
+		"size": "L",
+		"fontSize": "20"
+	}
+]
+			
