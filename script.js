@@ -101,7 +101,7 @@ function loadPage()
 			  }
 	);
 
-	loadAJAX('http://word2.eu/proz-kudoz-api/proz-kudoz-api.php',
+	loadAJAX('https://word2.eu/proz-kudoz-api/proz-kudoz-api.php',
 			  function (proz) {
 
 				  if (proz !== null)
